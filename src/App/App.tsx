@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import {Products} from "./Products/Products";
-import {Header} from "./Header/Header";
+import {Products} from "../Products/Products";
+import {Header} from "../Header/Header";
+import {Pages} from "../Pages/Pages";
 
 
 
@@ -11,8 +12,8 @@ function App() {
     return (
         <div>
             <Header/>
-            <Products/>
 
+            <Pages/>
         </div>
     );
 }
